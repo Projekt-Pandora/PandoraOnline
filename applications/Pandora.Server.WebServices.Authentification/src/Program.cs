@@ -7,7 +7,7 @@ namespace Pandora.Server.WebServices.Authentification
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            
+
             builder.Configuration.AddCommandLine(args);
 
             ConfigureLogger(builder);
@@ -23,14 +23,14 @@ namespace Pandora.Server.WebServices.Authentification
         {
             services.AddControllers();
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+
+            services.AddAuthentificationStorage(configuration.GetConnectionString("AuthentificationDatabase"));
         }
 
         private static void ConfigureApplication(WebApplication app)
         {
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -39,6 +39,8 @@ namespace Pandora.Server.WebServices.Authentification
 
             app.UseAuthorization();
             app.MapControllers();
+
+            
         }
 
         private static void ConfigureLogger(WebApplicationBuilder builder)
