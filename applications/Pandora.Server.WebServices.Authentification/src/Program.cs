@@ -39,8 +39,6 @@ namespace Pandora.Server.WebServices.Authentification
 
             app.UseAuthorization();
             app.MapControllers();
-
-            
         }
 
         private static void ConfigureLogger(WebApplicationBuilder builder)
