@@ -20,11 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Server\WebServices\Authentification\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\libraries\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj" />
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.WebSerivces\src\Pandora.Server.WebSerivces.csproj" />
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.WebServices.Models\src\Pandora.Server.WebServices.Models.csproj" />
   </ItemGroup>
 
 </Project>

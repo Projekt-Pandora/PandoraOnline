@@ -2,7 +2,7 @@
 
 namespace Pandora.Server.Storages.Authentification
 {
-    public interface IAuthentificationStorageContext
+    public interface IAuthentificationStorageContext : IDbContext
     {
         DbSet<Account> Accounts { get; }
     }

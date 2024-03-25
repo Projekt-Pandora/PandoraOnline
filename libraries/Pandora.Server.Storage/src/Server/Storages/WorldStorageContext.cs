@@ -8,15 +8,15 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Pandora.Server.Storages.Events
+namespace Pandora.Server.Storages.World
 {
-    public sealed class EventStorageContext : DbContext, IStorageMigrator, IEventStorageContext
+    public sealed class WorldStorageContext : DbContext, IStorageMigrator, IWorldStorageContext
     {
         private static bool __isMigrated;
         private readonly ILogger<AuthentificationStorageContext> logger;
         private readonly IHostEnvironment hostEnvironment;
 
-        public EventStorageContext(DbContextOptions<EventStorageContext> options, ILogger<AuthentificationStorageContext> logger, IHostEnvironment hostEnvironment) : base(options)
+        public WorldStorageContext(DbContextOptions<WorldStorageContext> options, ILogger<AuthentificationStorageContext> logger, IHostEnvironment hostEnvironment) : base(options)
         {
             this.logger = logger;
             this.hostEnvironment = hostEnvironment;

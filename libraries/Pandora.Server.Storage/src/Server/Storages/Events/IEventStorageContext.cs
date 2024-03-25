@@ -1,6 +1,6 @@
 ﻿namespace Pandora.Server.Storages.Events
 {
-    public interface IEventStorageContext
+    public interface IEventStorageContext : IDbContext
     {
     }
 }

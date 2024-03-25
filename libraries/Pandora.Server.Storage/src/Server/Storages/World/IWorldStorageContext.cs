@@ -1,6 +1,6 @@
 ﻿namespace Pandora.Server.Storages.World
 {
-    public interface IWorldStorageContext
+    public interface IWorldStorageContext : IDbContext
     {
     }
 }

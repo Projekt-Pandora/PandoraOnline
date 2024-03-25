@@ -6,8 +6,4 @@
 		<RootNamespace>Pandora</RootNamespace>
 		<IsPackable>true</IsPackable>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <Folder Include="Server\WebServices\Authentification\Models\" />
-	</ItemGroup>
 </Project>

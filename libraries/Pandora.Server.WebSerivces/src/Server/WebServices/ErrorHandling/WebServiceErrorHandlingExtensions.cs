@@ -1,17 +1,10 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Pandora.Server.WebServices.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Pandora.Server.WebServices.ErrorHandling
+namespace Pandora.Server.WebServices
 {
     public static class WebServiceErrorHandlingExtensions
     {
