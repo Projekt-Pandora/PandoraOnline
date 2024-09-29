@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pandora.Server.WebService.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pandora.Server.WebService.Authentification.Test", "test\Pandora.Server.WebService.Authentification.Test\Pandora.Server.WebService.Authentification.Test.csproj", "{4CB83BF1-474C-4C4E-A380-B6DF72E59AB8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pandora.Server.Storage.Authentification", "..\..\libraries\Pandora.Server.Storage.Authentification\src\Pandora.Server.Storage.Authentification.csproj", "{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{4CB83BF1-474C-4C4E-A380-B6DF72E59AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB83BF1-474C-4C4E-A380-B6DF72E59AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB83BF1-474C-4C4E-A380-B6DF72E59AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D4A96B36-DA89-4C50-AF76-C7924AD16300} = {F5ACBA2D-DF48-4787-BC80-64AE170BCAED}
 		{4CB83BF1-474C-4C4E-A380-B6DF72E59AB8} = {9084A9F0-9590-4EC3-9F74-6FE718B6B582}
+		{47FB2F34-6A11-4A05-B48B-DF226A2F6E1F} = {436D9F65-5EBF-4B27-9736-B25DD362B63B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9FBCAA8-054F-4D17-A50A-1E76D39B0C47}
