@@ -1,1 +1,0 @@
-# Your Readme for Pandora.ClassLibrary.Template
