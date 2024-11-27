@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Generelle Projekt Konfiguration -->
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>Pandora</RootNamespace>
+		<IsPackable>true</IsPackable>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="FluentMigrator.Runner.Postgres" Version="6.2.0" />
+	</ItemGroup>
+</Project>
