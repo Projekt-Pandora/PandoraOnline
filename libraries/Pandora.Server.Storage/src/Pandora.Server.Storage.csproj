@@ -9,7 +9,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="FluentMigrator.Runner.Core" Version="6.2.0" />
-	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />

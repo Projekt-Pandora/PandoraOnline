@@ -8,9 +8,10 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj" />
+		<ProjectReference Include="..\..\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="FluentMigrator.Runner.Postgres" Version="6.2.0" />
+		<PackageReference Include="FluentMigrator.Runner.Postgres" Version="6.2.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.1" />
 	</ItemGroup>
 </Project>

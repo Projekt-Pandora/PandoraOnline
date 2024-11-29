@@ -8,15 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dokumente", "Dokumente", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8C31D6A4-B812-4E09-A1C0-246710540270}") = "Pandora.Server.Storage.Community", "src\Pandora.Server.Storage.Community.csproj", "{BC2065A5-CE96-403E-8028-D3E09E729AFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.Storage.Community", "src\Pandora.Server.Storage.Community.csproj", "{BC2065A5-CE96-403E-8028-D3E09E729AFF}"
 EndProject
-Project("{8C31D6A4-B812-4E09-A1C0-246710540270}") = "Pandora.Server.Storage.Community.Test", "test\Pandora.Server.Storage.Community.Test\Pandora.Server.Storage.Community.Test.csproj", "{D3D31693-E770-481C-BD81-06F22BC900A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.Storage.Community.Test", "test\Pandora.Server.Storage.Community.Test\Pandora.Server.Storage.Community.Test.csproj", "{D3D31693-E770-481C-BD81-06F22BC900A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{08181537-4F43-45E1-8B8E-32D801891719}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{953B1947-74B9-44FA-811B-B679F715521D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9E4FE5D1-4A98-40A2-9421-1E0CD1C10CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.Storage", "..\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj", "{33C41500-2347-4111-B628-F579E6D738F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{D3D31693-E770-481C-BD81-06F22BC900A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D31693-E770-481C-BD81-06F22BC900A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D31693-E770-481C-BD81-06F22BC900A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C41500-2347-4111-B628-F579E6D738F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C41500-2347-4111-B628-F579E6D738F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C41500-2347-4111-B628-F579E6D738F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C41500-2347-4111-B628-F579E6D738F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BC2065A5-CE96-403E-8028-D3E09E729AFF} = {953B1947-74B9-44FA-811B-B679F715521D}
 		{D3D31693-E770-481C-BD81-06F22BC900A9} = {9E4FE5D1-4A98-40A2-9421-1E0CD1C10CA7}
+		{33C41500-2347-4111-B628-F579E6D738F2} = {08181537-4F43-45E1-8B8E-32D801891719}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9FBCAA8-054F-4D17-A50A-1E76D39B0C47}

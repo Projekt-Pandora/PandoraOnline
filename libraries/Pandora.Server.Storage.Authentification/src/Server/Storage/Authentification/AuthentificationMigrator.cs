@@ -13,6 +13,8 @@ namespace Pandora.Server.Storage.Authentification
     {
         public void ConfigureServices(ServiceCollection serviceCollection, string connectionString)
         {
+            var asm = typeof(M_0001).Assembly;
+
             serviceCollection
                 // Add common FluentMigrator services
                 .AddFluentMigratorCore()
@@ -22,7 +24,7 @@ namespace Pandora.Server.Storage.Authentification
                     // Set the connection string
                     .WithGlobalConnectionString(connectionString)
                     // Define the assembly containing the migrations
-                    .ScanIn(typeof(_27112024_01).Assembly).For.Migrations())
+                    .ScanIn(asm).For.Migrations())
                 // Enable logging to console in the FluentMigrator way
                 .AddLogging(lb => lb.AddFluentMigratorConsole());
         }

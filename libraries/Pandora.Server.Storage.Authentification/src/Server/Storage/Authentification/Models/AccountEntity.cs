@@ -21,6 +21,5 @@ namespace Pandora.Server.Storage.Authentification.Models
         [Column("account_createDate")] public DateTime CreateDate { get; set; }
         [Column("account_changeDate")] public DateTime ChangeDate { get; set; }
         [Column("account_deleteDate")] public DateTime? DeleteDate { get; set; }
-
     }
 }

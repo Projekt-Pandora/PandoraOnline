@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Pandora.Server.Storage.Authentification.Migrations
 {
-    [Migration(2024112701, description: "Create Account Table")]
-    internal class _27112024_01 : Migration
+    [Migration(1, description: "Create Account Table")]
+    public class M_0001 : Migration
     {
         public override void Down()
         {
