@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Pandora.Server.Storage.Authentification.Models
     [Table("accounts")]
     public class AccountEntity
     {
-        [Column("account_id")] public long AccountId { get; set; }
+        [Column("account_id")] [Key] public long AccountId { get; set; }
         [Column("account_name")] public string Name { get; set; } = string.Empty;
         [Column("account_mail")] public string EMail { get; set; } = string.Empty;
         [Column("account_password_hash")] public string PasswordHash { get; set; } = string.Empty;

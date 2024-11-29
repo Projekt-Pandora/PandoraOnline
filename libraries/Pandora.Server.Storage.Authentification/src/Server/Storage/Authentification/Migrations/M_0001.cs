@@ -28,7 +28,7 @@ namespace Pandora.Server.Storage.Authentification.Migrations
                 .WithColumn("account_verified").AsBoolean().NotNullable().WithDefaultValue(false)
                 .WithColumn("account_createDate").AsDateTime().NotNullable().WithDefault(SystemMethods.CurrentDateTime)
                 .WithColumn("account_changeDate").AsDateTime().NotNullable().WithDefault(SystemMethods.CurrentDateTime)
-                .WithColumn("account_deleteDate").AsDateTime().WithDefaultValue(null);
+                .WithColumn("account_deleteDate").AsDateTime().Nullable().WithDefaultValue(null);
         }
     }
 }

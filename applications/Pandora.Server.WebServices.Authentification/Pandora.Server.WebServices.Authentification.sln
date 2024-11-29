@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dokumente", "Dokumente", "{E6FE1D30-001B-447E-BAD0-A8296E54CCF6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{436D9F65-5EBF-4B27-9736-B25DD362B63B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5ACBA2D-DF48-4787-BC80-64AE170BCAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.WebServices.Authentification", "src\Pandora.Server.WebServices.Authentification.csproj", "{D4A96B36-DA89-4C50-AF76-C7924AD16300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.Storage.Authentification", "..\..\libraries\Pandora.Server.Storage.Authentification\src\Pandora.Server.Storage.Authentification.csproj", "{8F8981E7-302C-41A3-8037-124DFED47442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.Storage", "..\..\libraries\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj", "{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.WebServices", "..\..\libraries\Pandora.Server.WebServices\src\Pandora.Server.WebServices.csproj", "{0C69975C-B75C-493C-9626-02109C026089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pandora.Server.WebServices.Models.Authentification", "..\..\libraries\Pandora.Server.WebServices.Models.Authentification\src\Pandora.Server.WebServices.Models.Authentification.csproj", "{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A96B36-DA89-4C50-AF76-C7924AD16300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A96B36-DA89-4C50-AF76-C7924AD16300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A96B36-DA89-4C50-AF76-C7924AD16300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A96B36-DA89-4C50-AF76-C7924AD16300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8981E7-302C-41A3-8037-124DFED47442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8981E7-302C-41A3-8037-124DFED47442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8981E7-302C-41A3-8037-124DFED47442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8981E7-302C-41A3-8037-124DFED47442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C69975C-B75C-493C-9626-02109C026089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C69975C-B75C-493C-9626-02109C026089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C69975C-B75C-493C-9626-02109C026089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C69975C-B75C-493C-9626-02109C026089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4A96B36-DA89-4C50-AF76-C7924AD16300} = {F5ACBA2D-DF48-4787-BC80-64AE170BCAED}
+		{8F8981E7-302C-41A3-8037-124DFED47442} = {436D9F65-5EBF-4B27-9736-B25DD362B63B}
+		{174A4B1F-8FD9-4C78-BDEF-ED6F5E149D6A} = {436D9F65-5EBF-4B27-9736-B25DD362B63B}
+		{0C69975C-B75C-493C-9626-02109C026089} = {436D9F65-5EBF-4B27-9736-B25DD362B63B}
+		{FF75E097-2F2F-4360-AA44-8CA2CFAF4D67} = {436D9F65-5EBF-4B27-9736-B25DD362B63B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9FBCAA8-054F-4D17-A50A-1E76D39B0C47}
+	EndGlobalSection
+EndGlobal

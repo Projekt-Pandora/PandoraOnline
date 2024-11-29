@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+	<RootNamespace>Pandora</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.Storage.Authentification\src\Pandora.Server.Storage.Authentification.csproj" />
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.Storage\src\Pandora.Server.Storage.csproj" />
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.WebServices.Models.Authentification\src\Pandora.Server.WebServices.Models.Authentification.csproj" />
+    <ProjectReference Include="..\..\..\libraries\Pandora.Server.WebServices\src\Pandora.Server.WebServices.csproj" />
+  </ItemGroup>
+
+</Project>

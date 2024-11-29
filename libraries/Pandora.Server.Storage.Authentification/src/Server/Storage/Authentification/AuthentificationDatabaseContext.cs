@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pandora.Server.Storage.Authentification.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,7 @@ namespace Pandora.Server.Storage.Authentification
     {
         public AuthentificationDatabaseContext(DbContextOptions<AuthentificationDatabaseContext> options) : base(options)
         { }
+
+        public DbSet<AccountEntity> Accounts { get; private set; }
     }
 }
